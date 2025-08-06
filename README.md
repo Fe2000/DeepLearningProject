@@ -32,7 +32,7 @@ To cover some background over this topic one paper I look over was Show and Tell
 turning everything into lowercase and removing any punctuation the. Next I created word embedding
  vectors for each unique word for a xed length. I used pre-trained glove embeddings. To handle
  the image part of the data I used technique called transfer learning which used a already trained
- model to transform the original image to a vector. The pre-trained model I used was InceptionV3
+ model to transform the original image to a vector. The pre-trained model I used was InceptionV3 (did not upload this model, you can find this on Kaggle or other sites)
  and I removed the last layer so I could make the output be a set vector size of 2048. Once all the
  pre-processing step where done I made a model which had dropout, embedding and LSTM layers to
  predict the caption of the given image.
