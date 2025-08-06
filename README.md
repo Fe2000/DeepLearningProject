@@ -20,6 +20,8 @@ To cover some background over this topic one paper I look over was Show and Tell
  which consisted of 8,000 images that are each paired with five different captions which provide clear
  descriptions
 
+<img width="1800" height="378" alt="image" src="https://github.com/user-attachments/assets/416bcdcd-8ced-4a5f-9f5d-61c96b3e02a2" />
+
 
  # Implementation
 
@@ -37,6 +39,7 @@ turning everything into lowercase and removing any punctuation. Next I created w
  pre-processing steps were done, I made a model which had dropout, embedding and LSTM layers to
  predict the caption of the given image.
 
+<img width="1039" height="526" alt="image" src="https://github.com/user-attachments/assets/01ce6c55-b39c-4dfd-9132-13409381e31a" />
 
 
  # Evaluation
